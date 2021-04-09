@@ -1,0 +1,6 @@
+[submodule "mambo"]
+	path = mambo
+	url = https://gitlab.com/franck.ledoux/mambo
+[submodule "ultimaille"]
+	path = ultimaille
+	url = https://github.com/ssloy/ultimaille
