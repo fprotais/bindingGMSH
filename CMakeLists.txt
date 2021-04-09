@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.0)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(testgmsh main.cpp)
-add_executable(quadMeshing quadMeshing.cpp)
-add_executable(simpleMeshing simplexMeshing.cpp)
+add_executable(testgmsh bin/main.cpp)
+add_executable(quadMeshing bin/quadMeshing.cpp)
+add_executable(simpleMeshing bin/simplexMeshing.cpp)
 
 if(NOT GMSH_LIB)
     set(GMSH_LIB /home/fprotais/gmsh-git-Linux64-sdk/lib/libgmsh.so)
